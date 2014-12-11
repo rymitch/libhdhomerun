@@ -1,3 +1,11 @@
+libhdhomerun 20140604
+=====================
+Allow more time for firmware upgrade before reporting timeout.
+
+Add Mac 64-bit support, drop PPC support.
+
+Add Japanese channel map.
+
 libhdhomerun 20140121
 =====================
 License changed to LGPL 2.1.
