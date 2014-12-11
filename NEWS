@@ -1,3 +1,11 @@
+libhdhomerun 20141124
+=====================
+New API for adding all tuners of a device to a device-selector object.
+
+Improvements to implementation of random_get32 and getcurrenttime APIs.
+
+Fix DNS handling on Android.
+
 libhdhomerun 20140604
 =====================
 Allow more time for firmware upgrade before reporting timeout.
