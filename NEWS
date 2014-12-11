@@ -1,3 +1,7 @@
+libhdhomerun 20141210
+=====================
+Fix problem where libhdhomerun could interrupt http stream.
+
 libhdhomerun 20141124
 =====================
 New API for adding all tuners of a device to a device-selector object.
