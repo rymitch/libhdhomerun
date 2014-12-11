@@ -1,0 +1,9 @@
+libhdhomerun 20140121
+=====================
+License changed to LGPL 2.1.
+
+Improvements to socket handling on Mac/Linux.
+
+Corrections to EU channel map.
+
+Increase firmware upload chunk size.
