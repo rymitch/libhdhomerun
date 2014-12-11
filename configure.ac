@@ -1,0 +1,25 @@
+AC_PREREQ(2.63)
+AC_INIT([libhdhomerun],
+        [0.1],
+        [rymitch@gmail.com],
+        [libhdhomerun],
+        [http://github.com/rymitch/libhdhomerun/])
+AM_INIT_AUTOMAKE([
+        -Wall
+        -Werror
+        foreign
+        subdir-objects
+])
+AM_PROG_AR
+AC_PROG_CC
+AC_CONFIG_MACRO_DIR([m4])
+AM_SILENT_RULES([yes])
+LT_INIT([
+        disable-static
+        pic-only
+])
+AC_CONFIG_HEADERS(config.h)
+AC_CONFIG_FILES([
+        Makefile
+])
+AC_OUTPUT

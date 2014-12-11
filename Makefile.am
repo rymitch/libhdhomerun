@@ -1,0 +1,15 @@
+ACLOCAL_AMFLAGS = -I m4
+lib_LTLIBRARIES = libhdhomerun.la
+libhdhomerun_la_SOURCES = \
+	src/hdhomerun_channels.c \
+	src/hdhomerun_channelscan.c \
+	src/hdhomerun_control.c \
+	src/hdhomerun_debug.c \
+	src/hdhomerun_device.c \
+	src/hdhomerun_device_selector.c \
+	src/hdhomerun_discover.c \
+	src/hdhomerun_os_posix.c \
+	src/hdhomerun_pkt.c \
+	src/hdhomerun_sock_posix.c \
+	src/hdhomerun_video.c
+libhdhomerun_la_LDFLAGS = -version-info 0:0:0
