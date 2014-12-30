@@ -22,6 +22,8 @@
 .libs/
 Makefile
 Makefile.in
+hdhomerun_config
+libhdhomerun.la
 
 *.lo
-*.la
+*.o
