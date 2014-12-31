@@ -21,6 +21,7 @@
 #include "hdhomerun_os.h"
 
 #if defined(__APPLE__)
+#include "mach/mach.h"
 #include "mach/clock.h"
 #endif
 
