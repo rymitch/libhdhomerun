@@ -1,3 +1,13 @@
+libhdhomerun 20150406
+=====================
+Remove unused lineup-location get/set functions.
+
+Fix missing header needed for OS-X.
+
+libhdhomerun 20141210
+=====================
+Fix problem where libhdhomerun could interrupt http stream.
+
 libhdhomerun 20141210
 =====================
 Fix problem where libhdhomerun could interrupt http stream.
