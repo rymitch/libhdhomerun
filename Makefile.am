@@ -15,7 +15,7 @@ if POSIX
 libhdhomerun_la_SOURCES += src/hdhomerun_os_posix.c
 libhdhomerun_la_SOURCES += src/hdhomerun_sock_posix.c
 endif
-libhdhomerun_la_LDFLAGS = -version-info 0:0:0
+libhdhomerun_la_LDFLAGS = -version-info 1:0:0
 
 bin_PROGRAMS = hdhomerun_config
 hdhomerun_config_SOURCES = src/hdhomerun_config.c
