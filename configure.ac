@@ -1,6 +1,6 @@
 AC_PREREQ(2.63)
 AC_INIT([libhdhomerun],
-        [0.1],
+        [20150406],
         [rymitch@gmail.com],
         [libhdhomerun],
         [http://github.com/rymitch/libhdhomerun/])
